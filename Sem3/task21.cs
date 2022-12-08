@@ -1,0 +1,13 @@
+Console.WriteLine("Напишите координату x для первой точки");
+int x1 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Напишите координату y для первой точки");
+int y1 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Напишите координату z для первой точки");
+int z1 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Напишите координату x для второй точки");
+int x2 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Напишите координату y для второй точки");
+int y2 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Напишите координату z для первой точки");
+int z2 = int.Parse(Console.ReadLine()!);
+Console.WriteLine(Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2)));
